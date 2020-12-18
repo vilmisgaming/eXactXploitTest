@@ -443,6 +443,9 @@ function go() {
 	/* Init spray */
 	sprayHTMLTextArea();
 
+	if(window.midExploit)
+		window.midExploit();
+
 	g_input = input1;
 	/* Shape heap layout for obj. reuse */
 	prepareUAF();
